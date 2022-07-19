@@ -63,3 +63,36 @@ body{
     font-size: large;
     font-weight: 600;
 }
+
+
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    top: 1464px;
+    background-color:#161616;
+}
+
+.footer-text{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 50px;}
+
+.footer-nav a{
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+    
+}
+.footer-nav{
+    text-align: center;
+}
