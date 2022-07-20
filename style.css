@@ -7,57 +7,93 @@ body{
 }
 
 /* All the header sections designs are included here */
-
-.top-header{
-    display: flex;
-    justify-content: center;
-    background-color: #161616;
-    height: 628px;
+/* Header banner styles Start*/
+.container{
+    border: 1px solid beige;
+    background-color: black;
+    height: 646px;
     width: auto;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-top: 50px;
     border-radius: 30px;
-}
-.top-headline{
-    font-family: Poppins;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 50px;
-    margin-top: 10%;
-    width: 500px;
-    height: 150px;
-    margin-left: 0%;
-    margin-right: 5%;
-}
-
-.top-text{
     margin-left: 5%;
     margin-right: 5%;
+    display: flex;
+}
+.header-text{
+    margin-top: 111px;
+    margin-bottom: 111px;
+    width: 50%;
     
 }
-.top-header-left {
-    color: aliceblue;
+
+
+/* Header large title style */
+.header-title{
+    color: azure;
+    font-size: xx-large;
+    height: 240px;
+    width: 531px;
+    border: 1px solid black;
+    font-family: Poppins;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 106px;
 
 }
 
-.top-header-right img{
-    display: block;
+
+
+/* Header parragraph style  */
+.header-para {
+    height: 78px;
+    width: 506px;
+    left: 246px;
+    top: 421px;
+    border-radius: nullpx;
+    color:#FFFFFF;
+    margin-left: 106px;
 }
 
-.top-button a{  
-    text-decoration: none;
-    color: black
-    font-size: large;
-    font-weight: 600;
+
+/* Header button style */
+
+.header-button{
+    height: 56px;
+    width: 187px;
+    left: 246px;
+    top: 529px;
+    border-radius: 5px;
+    padding: 16px, 25px, 16px, 25px;
+    background: green;
+    color: #FFFFFF;
+    font-family: HelveticaNeue;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-left: 106px;
+    margin-top: 5%;
+}
+.fa-solid fa-play{
+    color: #FFFFFF;
+}
+.header-image{
+    width: 50%;
+}
+.header-image-section{
+    display: flex;
+    justify-content: center;
 }
 
-.top-button{
-    height: 50px;
-    width: 120px;
-    background-color: salmon;
-
+.header-image img{
+    margin-top: 2.5%;
 }
 
+/* Header banner styles End*/
 
 
 /* Main body */
